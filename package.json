@@ -1,0 +1,39 @@
+{
+  "name": "marvel-random-hero",
+  "version": "1.1.0",
+  "description": "My first npm module. Returns a random hero from the Marvel API. It requires you to be registered in the marvel API and have a public and private api key",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "axios": "^0.19.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel -d ./ src/",
+    "prepare": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelB83/marvel-random-hero.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "marvel",
+    "node",
+    "javascript"
+  ],
+  "author": "Ismael Bernal (ismaelbernal83@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmaelB83/marvel-random-hero/issues"
+  },
+  "homepage": "https://github.com/IsmaelB83/marvel-random-hero#readme"
+}
