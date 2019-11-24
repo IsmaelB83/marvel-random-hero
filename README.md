@@ -4,7 +4,7 @@
 
 A simple interface around the [Marvel Comics API](http://developer.marvel.com/documentation/getting_started), which returns random hero every time you call it.
 
-[demo](pending) - [source](https://github.com/IsmaelB83/marvel-random-hero-demo)
+[demo](https://marvel-random-hero-demo.herokuapp.com/) - [source](https://github.com/IsmaelB83/marvel-random-hero-demo)
 
 ## Motivation
 
