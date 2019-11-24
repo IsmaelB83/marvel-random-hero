@@ -1,6 +1,6 @@
 {
   "name": "marvel-random-hero",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My first npm module. Returns a random hero from the Marvel API. It requires you to be registered in the marvel API and have a public and private api key",
   "main": "lib/index.js",
   "dependencies": {
